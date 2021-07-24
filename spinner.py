@@ -1,3 +1,4 @@
+#libraries 
 from turtle import *
 state = {'turn': 0}
 def spinner():
@@ -25,7 +26,7 @@ def animate():
     ontimer(animate, 20)
 def flick():
     state['turn']+=10
-
+#setup
 setup(420, 420, 370, 0)
 hideturtle()
 tracer(False)
